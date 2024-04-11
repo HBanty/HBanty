@@ -1,0 +1,14 @@
+package milecalculater;
+import java.util.Scanner;
+public class kilometer_to_Mile {
+    
+    public static void main(String[] args) {
+        System.out.println("Enter kilometer:");
+        Scanner sc = new Scanner(System.in);
+        int km = sc.nextInt();
+        System.out.println("Kilometer="+km);
+        float ml = km * ((float)1.609);
+        System.out.println("Mile="+ml);
+    }
+    
+}
