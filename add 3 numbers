@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[]arg){
+						Scanner s = new Scanner(System.in);
+        System.out.println("num 1:");
+        int a = s.nextInt();
+        System.out.println("num 2:");
+        int b = s.nextInt();
+        System.out.println("num 3:");
+        int c = s.nextInt();
+        int sum = a+b+c;
+        System.out.println("sum of three number:"+sum);
+    }
+    
+}
