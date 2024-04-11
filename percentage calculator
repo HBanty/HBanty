@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[]arg){
+        int totalmark= 100;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter subjects Marks");
+        System.out.println("Subject 1:");
+        int a = s.nextInt();    
+        System.out.println("Subject 2:");
+        int b = s.nextInt();
+        System.out.println("Subject 3:");
+        int c = s.nextInt();
+        System.out.println("subject 4:");
+        int d = s.nextInt();
+        System.out.println("Subject 5:");
+        int e = s.nextInt();
+        int total = a+b+c+d+e;
+        float per = ((float)total / 500) * 100;
+        System.out.println("total mark="+total);
+        System.out.println("Percentage= "+per);
+        
+    }
+    
+}
