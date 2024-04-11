@@ -1,0 +1,13 @@
+
+public class Main {
+    
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        int a =90;
+        int b =80;
+        int c =70;
+        float CGPA = ((float)a+b+c)/30;
+        System.out.println("CGPA="+CGPA);
+    }
+    
+}
